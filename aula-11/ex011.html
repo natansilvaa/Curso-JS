@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Seu país</h2>
+    qual o seu país: <input type="text" id="pxp">
+    <input type="button" value="verificar" onclick="pais()"> 
+
+    <div id="res">
+
+    </div>
+
+    <script>
+        function pais(){
+            var p = document.getElementById('pxp').value
+            var r = document.getElementById('res')
+
+            if(p == 'Brasil'){
+                r.innerText = `voce é brasileiro !`
+            } else{
+                r.innerText = `você é estrangeiro !`
+            }
+        }
+    </script>
+</body>
+</html>
