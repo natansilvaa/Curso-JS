@@ -12,23 +12,34 @@
         input{
             padding: 5px;
             font-size: 1.rem;
+            text-align: center;
         }
         #res{
             margin-top: 20px;
-            border: 1px solid black;
+            
             width: 80%;
             padding: 5px;
             align-items: center;
             text-align: center;
         }
+
+        #mae{
+            border: 1 solid black;
+            background-color: blue;
+            width: 500px;
+            height: 200px;
+           
+        }
     </style>
 </head>
 <body>
-    <h1>somando valores</h1>
-    <input type="number" name="txtn1" id="txtn1">+ 
-    <input type="number" name="txtn2" id="txtn2">
-    <input type="button" value="somar" onclick="somar()">
-    <div id="res">resultado</div>
+    <div id="mae">
+        <h1>somando valores</h1>
+        <input type="number" name="txtn1" id="txtn1">+ 
+        <input type="number" name="txtn2" id="txtn2">
+        <input type="button" value="somar" onclick="somar()">
+        <div id="res">resultado</div>
+    </div>
 
     <script>
         function somar(){ 
