@@ -3,11 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>somando números</title>
+    <title>Somando números</title>
+    <style>
+        h1{
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        input{
+            padding: 5px;
+            font-size: 1.rem;
+        }
+        #res{
+            margin-top: 20px;
+            border: 1px solid black;
+            width: 80%;
+            padding: 5px;
+            align-items: center;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <h1>somando valores</h1>
-    <input type="number" name="txtn1" id="txtn1"> 
+    <input type="number" name="txtn1" id="txtn1">+ 
     <input type="number" name="txtn2" id="txtn2">
     <input type="button" value="somar" onclick="somar()">
     <div id="res">resultado</div>
