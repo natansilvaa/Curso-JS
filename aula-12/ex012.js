@@ -1,13 +1,11 @@
-var agr= new Date()
-var hora= agr.getHours()
-
-console.log(`agora sao ${hora} horas`)
-if( hora < 6){
-    console.log('boa madrugada!')
-}else if ( hora < 12){
-    console.log('bom dia!')
-}else if(hora < 18 ) {
+var hora =22
+console.log(` a gora são ${hora} horas`)
+if( hora < 5){
+    console.log('boa madrugada')
+} else if( hora < 12 ){
+    console.log('bom diaa!')
+}else if ( hora < 18){
     console.log('boa tarde!')
-}else{
-    console.log('boa noite!!! <3')
-} 
+} else{
+    console.log('boa noite')
+}
