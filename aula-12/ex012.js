@@ -1,4 +1,6 @@
-var hora =22
+var agora = new Date()
+var hora = agora.getHours()
+
 console.log(` a gora são ${hora} horas`)
 if( hora < 5){
     console.log('boa madrugada')
