@@ -17,7 +17,7 @@ function verificar(){
         genero ='homen'
         if(idade >= 0 && idade < 10){
             //criança
-            img=('url','img/criança-h')
+            img.style.backgroundImage=('url','img/criança-h')
         }else if(idade < 21){
             //jovem
         }else if(idade < 50){
