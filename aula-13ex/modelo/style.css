@@ -24,7 +24,9 @@ section{
     align-items: center;
     
 }
-
+.flor{
+    padding: 5px;
+}
 footer{
  color: white;
  text-align: center;
