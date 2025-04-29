@@ -24,7 +24,9 @@ section{
     /*align-items: center;*/
     
 }
-
+.ps > p{
+   padding: 10px;
+}
 
 footer{
  color: white;

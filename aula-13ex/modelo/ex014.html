@@ -11,19 +11,19 @@
         <h1 >Verificador de Idade</h1>
     </header>
     <section>
-        <div >
+        <div class="ps">
         <p>Ano de nascimento: 
-            <input type="number">
+            <input type="number" name="txtano" id="txtano">
         </p> 
             
         <p> Sexo: 
-            <input type="radio" name="tadsex" id="masc" checked> 
+            <input type="radio" name="radsex" id="masc" checked> 
             <label for="masc" >masculino</label>
-            <input type="radio" name="tadsex" id="fem"> 
+            <input type="radio" name="radsex" id="fem"> 
             <label for="fem" >feminino</label>
         </p>
          <p>
-            <input type="button" value="verificar">
+            <input type="button" value="verificar" onclick="verificar()">
          </p>    
         </div>
         <div id="res"> 
