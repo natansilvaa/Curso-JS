@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(116, 116, 214);
+}
+header{
+   color: white;
+   text-align: center;
+   padding: 30px;
+}
+section{
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.39);
+    display: flex;
+    flex-direction: column;
+    
+}
+section > div{
+    margin: 10px;
+    
+}
+
+footer{
+ color: white;
+ text-align: center;
+ font-style: italic;
+ padding: 30px;
+}
+#imgs{
+    margin-top: 20px;
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%; /* deixa redondinho tipo relógio */
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+}
