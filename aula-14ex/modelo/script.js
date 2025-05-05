@@ -10,10 +10,15 @@ function contar() {
     passo = Number(passo)
 
     if (isNaN(inicio) || isNaN(fim) || isNaN(passo) || passo <= 0) {
-        alert('Preencha os campos corretamente e use um passo maior que zero!')
+        res.innerHTML += "inposivel contar"
+        
+        
     } else {
         res.innerHTML = "Contando: <br>"
-
+        if (passo <= 0){
+            alert('passo invalido! Considero o passo 1')
+            passo = 1
+        }
         if (inicio < fim) {
             // Contagem crescente
             for (let c = inicio; c <= fim; c += passo) {
