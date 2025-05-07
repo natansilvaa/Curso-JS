@@ -1,3 +1,4 @@
 function tabuada(){
-    let
+    let num=document.getElementById("txtn")
+    let yab= document.getElementById('soltab')
 }
